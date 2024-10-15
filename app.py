@@ -16,6 +16,7 @@ if hist_button:
     st.plotly_chart(fig, use_container_width=True)
     fig.show() # crear gráfico de dispersión
 
+
 scatter_plot_button=st.button("Construir Grafico de Dispersión")
 if scatter_plot_button:
    st.write('Creación de un grafico de dispersion para el conjunto de datos de anuncios de venta de coches')
